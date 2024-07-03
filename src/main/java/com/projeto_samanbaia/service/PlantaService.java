@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class PlantaService {
 
-    private PlantaRepository repository;
+    private final PlantaRepository repository;
 
     @Transactional(readOnly = true)
     public Planta buscarPorId(Long id) {

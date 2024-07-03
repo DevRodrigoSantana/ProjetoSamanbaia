@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class PlantaController {
 
-    private PlantaService service;
+    private final PlantaService service;
 
     @GetMapping("/{id}")
     public ResponseEntity<Planta> verPlanta(@PathVariable Long id){
         Planta planta = service.buscarPorId(id);
-        return ResponseEntity.ok().body(planta);
+        return ResponseEntity.ok(planta);
     }
 }
