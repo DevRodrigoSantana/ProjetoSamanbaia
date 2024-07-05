@@ -15,4 +15,10 @@ public class PlantaService {
     public Planta buscarPorId(Long id) {
         return repository.findById(id).orElseThrow(()->new RuntimeException("id Nao encontrado"));
     }
+
+    public Planta alterarUmidade(Long id, String umidade) {
+        Planta planta = buscarPorId(id);
+        planta.setUmidadeSolo(umidade);
+        return repository.save(planta);
+    }
 }
