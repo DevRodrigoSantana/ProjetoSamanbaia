@@ -8,8 +8,12 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @NoArgsConstructor
-public class PlantaDtoAlterarUmidade {
+public class PlantaDtoAlterarDados {
 
     @NotBlank
-    private String umidade;
+    private String umidadeSoloAtual;
+    @NotBlank
+    private String umidadeArAtual;
+    @NotBlank
+    private String temperaturaAtual;
 }

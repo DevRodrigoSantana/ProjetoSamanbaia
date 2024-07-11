@@ -19,4 +19,8 @@ public class Planta {
         private String nome;
         @Column(name = "umidade_solo")
         private String umidadeSolo;
+        @Column(name = "umidade_ar")
+        private String umidadeAr;
+        @Column(name = "temperatura")
+        private String temperatura;
 }
