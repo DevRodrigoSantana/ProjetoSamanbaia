@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/planta")
 @RequiredArgsConstructor
-public class PlantaController {
+public class
+PlantaController {
 
     private final PlantaService service;
 

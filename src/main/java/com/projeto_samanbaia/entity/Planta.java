@@ -23,4 +23,6 @@ public class Planta {
         private String umidadeAr;
         @Column(name = "temperatura")
         private String temperatura;
+        @Column(name = "sobre")
+        private String sobre;
 }
