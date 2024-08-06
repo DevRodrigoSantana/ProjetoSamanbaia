@@ -9,20 +9,25 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @Entity
-@Table(name = "Plantas")
+@Table(name = "plantas")
 public class Planta {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         @Column(name = "id")
         private Long id;
-        @Column(name = "nome",nullable = false)
+
+        @Column(name = "nome", nullable = false)
         private String nome;
-        @Column(name = "umidade_solo")
+
+        @Column(name = "umidade_solo", nullable = false)
         private String umidadeSolo;
-        @Column(name = "umidade_ar")
+
+        @Column(name = "umidade_ar",nullable = false)
         private String umidadeAr;
-        @Column(name = "temperatura")
+
+        @Column(name = "temperatura",nullable = false)
         private String temperatura;
-        @Column(name = "sobre")
+
+        @Column(name = "sobre",nullable = false,length = 255)
         private String sobre;
 }

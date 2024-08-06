@@ -2,6 +2,7 @@ package com.projeto_samanbaia.web.controller;
 
 import com.projeto_samanbaia.entity.Planta;
 import com.projeto_samanbaia.service.PlantaService;
+import com.projeto_samanbaia.web.dto.PlantaCreate;
 import com.projeto_samanbaia.web.dto.PlantaDtoAlterarDados;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -29,5 +30,16 @@ PlantaController {
                                                 alterarDados.getUmidadeSoloAtual(),
                                                 alterarDados.getTemperaturaAtual());
         return  ResponseEntity.noContent().build();
+    }
+    @PostMapping()
+    public ResponseEntity<Void> create(@RequestBody PlantaCreate plantaCreate){
+        Planta planta = service.createPlanta(
+                                                plantaCreate.getNome(),
+                                                plantaCreate.getSobre(),
+                                                plantaCreate.getUmidadeDoAr(),
+                                                plantaCreate.getUmidadeDoSolo(),
+                                                plantaCreate.getTemperatura());
+
+        return ResponseEntity.ok().build();
     }
 }

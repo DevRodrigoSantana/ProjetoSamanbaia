@@ -28,4 +28,17 @@ public class PlantaService {
         return repository.save(planta);
 
     }
+
+    public Planta createPlanta(String nome, String sobre, String umidadeDoAr, String umidadeDoSolo, String temperatura) {
+    Planta planta= new Planta();
+
+    planta.setNome(nome);
+    planta.setSobre(sobre);
+    planta.setTemperatura(temperatura);
+    planta.setUmidadeSolo(umidadeDoSolo);
+    planta.setUmidadeAr(umidadeDoAr);
+
+return  repository.save(planta);
+
+    }
 }
