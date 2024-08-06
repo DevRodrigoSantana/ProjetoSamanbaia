@@ -10,6 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 public class PlantaDtoAlterarDados {
 
+    
     @NotBlank
     private String umidadeSoloAtual;
     @NotBlank
