@@ -1,4 +1,4 @@
-package socket;
+package com.projeto_samanbaia.socket;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.socket.TextMessage;

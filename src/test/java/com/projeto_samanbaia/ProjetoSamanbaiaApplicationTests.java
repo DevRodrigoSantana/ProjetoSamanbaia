@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootTest
-@ComponentScan(basePackages = {"com.projeto_samanbaia", "socket"})
+@ComponentScan(basePackages = {"com.projeto_samanbaia", "com/projeto_samanbaia/socket"})
 class ProjetoSamanbaiaApplicationTests {
 
 	@Test

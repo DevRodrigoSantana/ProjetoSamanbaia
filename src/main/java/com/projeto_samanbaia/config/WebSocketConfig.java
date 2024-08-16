@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
-import socket.WebSocketService;
+import com.projeto_samanbaia.socket.WebSocketService;
 
 // Exemplo da configuração do WebSocket no Java
 @Configuration
