@@ -25,13 +25,13 @@ O **Projeto Samambaia** é um sistema de monitoramento de plantas, atualmente se
 - **Código de configuração Wi-Fi**: O sistema permite que o usuário insira o nome da rede Wi-Fi e a senha diretamente no ESP8266, garantindo conectividade à internet e acesso aos dados de qualquer lugar.
 - **Comunicação HTTP**: Uma vez conectado, o ESP8266 envia as informações capturadas pelos sensores via requisições HTTP, permitindo que o aplicativo mobile receba os dados e exiba-os no dashboard.
 - 
-![Texto alternativo](fotos/tela login.jpg)
+![Texto alternativo](fotos/telaLogin.jpg)
 
 ## Aplicativo Mobile
 
 O aplicativo foi desenvolvido no App Inventor e é responsável por exibir todas as leituras dos sensores em uma interface simples e intuitiva, permitindo que o usuário tome ações com base nas informações fornecidas.
 
-![Texto alternativo](fotos/tela principal.jpg)
+![Texto alternativo](fotos/telaPrincipal.jpg)
 
 
 ## Estado Atual
