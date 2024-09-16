@@ -2,6 +2,8 @@
 
 O **Projeto Samambaia** é um sistema de monitoramento de plantas, atualmente sendo testado com a planta Singônio. O objetivo é fornecer informações em tempo real sobre as condições da planta, utilizando um aplicativo e sensores que monitoram a umidade do ar, temperatura e umidade do solo.
 
+![Texto alternativo](fotos/prototipo.jpg)
+
 ## Funcionalidades
 
 - **Monitoramento em tempo real**: Através de sensores integrados, o sistema monitora a umidade do ar, temperatura ambiente e umidade do solo.
