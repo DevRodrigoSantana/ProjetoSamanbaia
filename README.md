@@ -2,7 +2,8 @@
 
 O **Projeto Samambaia** é um sistema de monitoramento de plantas, atualmente sendo testado com a planta Singônio. O objetivo é fornecer informações em tempo real sobre as condições da planta, utilizando um aplicativo e sensores que monitoram a umidade do ar, temperatura e umidade do solo.
 
-![Texto alternativo](fotos/prototipo.jpg)
+<img src="fotos/prototipo.jpg" alt="Prototipo" width="300" />
+
 
 ## Funcionalidades
 
@@ -24,14 +25,15 @@ O **Projeto Samambaia** é um sistema de monitoramento de plantas, atualmente se
 
 - **Código de configuração Wi-Fi**: O sistema permite que o usuário insira o nome da rede Wi-Fi e a senha diretamente no ESP8266, garantindo conectividade à internet e acesso aos dados de qualquer lugar.
 - **Comunicação HTTP**: Uma vez conectado, o ESP8266 envia as informações capturadas pelos sensores via requisições HTTP, permitindo que o aplicativo mobile receba os dados e exiba-os no dashboard.
-- 
-![Texto alternativo](fotos/telaLogin.jpg)
+
+  <img src="fotos/telaLogin.jpg" alt="tela de um celular " width="300" />
+
 
 ## Aplicativo Mobile
 
 O aplicativo foi desenvolvido no App Inventor e é responsável por exibir todas as leituras dos sensores em uma interface simples e intuitiva, permitindo que o usuário tome ações com base nas informações fornecidas.
 
-![Texto alternativo](fotos/telaPrincipa.jpg)
+ <img src="fotos/telaprincipa.jpg" alt="tela de um celular " width="300" />
 
 
 ## Estado Atual
