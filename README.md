@@ -31,7 +31,7 @@ O **Projeto Samambaia** é um sistema de monitoramento de plantas, atualmente se
 
 O aplicativo foi desenvolvido no App Inventor e é responsável por exibir todas as leituras dos sensores em uma interface simples e intuitiva, permitindo que o usuário tome ações com base nas informações fornecidas.
 
-![Texto alternativo](fotos/telaPrincipal.jpg)
+![Texto alternativo](fotos/telaPrincipa.jpg)
 
 
 ## Estado Atual
