@@ -42,5 +42,5 @@ O projeto **Samambaia** ainda está em fase de desenvolvimento e testes. Ajustes
 
 ## Como Contribuir
 
-Sinta-se à vontade para abrir issues, enviar pull requests ou dar sugestões para melhorias. O objetivo é criar uma solução eficiente e de fácil uso para o monitoramento de plantas!
+Sinta-se à vontade para abrir issues ou dar sugestões para melhorias. O objetivo é criar uma solução eficiente e de fácil uso para o monitoramento de plantas!
 
